@@ -1,0 +1,87 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        text-align: center;
+        background-color: #292d33;
+        color: white;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    header {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    h1 {
+        padding: 22px 0;
+        color: black;
+        font-size: 2.3em;
+    }
+    
+    .scores {
+        border: 3px white solid;
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+        padding: 15px 20px;
+        font-size: 45px;
+        position: relative;
+    }
+    
+    .label {
+        background-color: #E2584D;
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+    
+    #player-label {
+        position: absolute;
+        top: 30px;
+        left: -25px;
+    }
+    
+    #comp-label {
+        position: absolute;
+        top: 30px;
+        right: -25px;
+    }
+    
+    p {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .choice {
+        display: inline-block;
+        border: 4px white solid;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 50px 20px 0;
+        transition: all 0.4s ease;
+    }
+    
+    .choice:hover {
+        cursor: pointer;
+        background-color: #24272E;
+    }
+    
+    #message {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .green-color {
+        border: 4px solid #4dcc7d;
+    }
+    
+    .red-color {
+        border: 4px solid #fc121b;
+    }
+    
+    .grey-color {
+        border: 4px solid #676a6b;
+    }
